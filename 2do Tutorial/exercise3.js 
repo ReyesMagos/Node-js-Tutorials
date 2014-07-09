@@ -1,0 +1,10 @@
+var fs = require('fs');
+var path = process.argv[2];
+
+var buffer = fs.readFileSync(path,'utf8');
+console.log(buffer);
+console.log('Realizo mas trabajo 1');
+console.log('Realizo mas trabajo 2');
+
+
+
