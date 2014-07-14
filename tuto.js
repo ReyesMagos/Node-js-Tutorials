@@ -1,4 +1,4 @@
-console.log(suma(process));
+cconsole.log(suma(process));
 
 function suma(process){
 	var suma=0;

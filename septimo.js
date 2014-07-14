@@ -7,6 +7,7 @@ http.get(url,function(response){
 	response.on('data',function(data){
 		
 		res+=data;
+		console.log(res.host());
 	});
 
 	response.on('error', function(err){
